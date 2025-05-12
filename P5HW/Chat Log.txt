@@ -1,0 +1,4 @@
+Used a value-returning function `create_character()` to build a dictionary of character attributes.
+Created a non-value-returning function `display_character(character)` to print attributes.
+Added logic functions like `battle()` and `find_potion()` using random library to simulate gameplay.
+Structured a main function `main()` to drive the game loop with character creation, battles, and events.

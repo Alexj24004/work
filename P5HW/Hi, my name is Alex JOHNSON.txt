@@ -1,0 +1,21 @@
+Hi, my name is Alex Johnson, and this is my Character Creation Game for the assignment.
+
+I’ll start by introducing my functions:
+
+create_character() is a value-returning function that collects user input for name, health, attack, and defense. It returns a dictionary of those values so the rest of the program can use it.
+
+display_character(character) is a non-value-returning function. It takes a character dictionary and prints out the values for display. We don’t need to return anything here because we’re just showing information.
+
+battle(character1, character2) is a non-returning function that simulates an attack. It uses the character's attack and defense to calculate damage and reduces health accordingly.
+
+find_potion(character) is another non-returning function that adds a random number of health points using random.randint() to simulate finding a healing item.
+
+Finally, I have the main() function. It doesn't return anything and handles the menu, looping through user choices until they exit.
+
+[Now run through the game menu:]
+I’ll start by creating two characters...
+Then I’ll display them...
+Now I’ll simulate a battle between them...
+And now I’ll let a character find a potion...
+
+As you can see, the game logic uses functions and loops to keep the game running until the user exits. Thank you!"
